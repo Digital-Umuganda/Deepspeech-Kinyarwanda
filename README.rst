@@ -6,6 +6,4 @@ DeepSpeech is an open source Speech-To-Text engine, using a model trained by mac
 
 Documentation for installation, usage, and training models are available on `deepspeech.readthedocs.io <http://deepspeech.readthedocs.io/?badge=latest>`_.
 
-For the latest release, including pre-trained models and checkpoints, `see the latest release on GitHub <https://github.com/mozilla/DeepSpeech/releases/latest>`_.
-
 For contact and support information, see `SUPPORT.rst <SUPPORT.rst>`_.
