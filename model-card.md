@@ -1,0 +1,47 @@
+Model card - Kinyarwanda Deepspeech model
+Model details
+- Kinyarwanda Speech to text model
+- Developed by Mozillla and Digital Umuganda
+- Deepspeech end to end RNN model
+- paper: deepspeech end to end STT (https://arxiv.org/pdf/1412.5567.pdf)
+- Documentation on model: https://deepspeech.readthedocs.io/
+- License: Mozilla 2.0 License
+- Feedback on the model: joshua.richard.meyer@gmail.com and samuelrutunda@digitalumuganda.com
+Intended use cases
+- Intended to be used for 
+  - simple keyword spotting
+  - simple transcribing
+  - transfer learning for better kinyarwanda and african language models
+- Intended to be used by:
+  - App developpers
+  - various organizations who wants to transcribe kinyarwanda recordings
+  - ML researchers
+  - other researchers in Kinyarwanda and tech (Linguistics, journalist)
+- Not intended to be used as:
+  - a fully fledged voice assistant
+  - voice recognition application 
+  - Multiple languages STT
+  - language detection 
+Factors
+- Anti-bias: these are bias that can influence the model
+  - Gender
+  - accents and dialects
+  - age
+- Voice quality: factors that can influence the accuracy of the model
+  - Background noise
+  - short sentences
+- Voice format: voices must be converted to the wav format
+  - wav format
+Metrics:
+- word error rate
+Training data:
+- common voice crowdsource website
+- 105,765 audio clips
+Evaluation data:
+- common voice crowdsource website
+- 14,252 audio clips
+Caveats and recommendation
+- More accents other than main kinyarwanda accents must be included
+- Language model to correct grammatical errors needed
+- More unique individual voice must be included in the datasets
+- Smaller models that can be incorporate in mobile devices
