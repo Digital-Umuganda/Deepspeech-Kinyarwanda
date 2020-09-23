@@ -40,11 +40,11 @@
 - word error rate
 
 **Training data**
-- common voice crowdsource website
+- [common voice crowdsource website](https://commonvoice.mozilla.org/en/datasets)
 - 105,765 audio clips
 
 **Evaluation data**
-- common voice crowdsource website
+- [common voice crowdsource website](https://commonvoice.mozilla.org/en/datasets)
 - 14,252 audio clips
 
 **Caveats and recommendation**
@@ -54,3 +54,4 @@
 - Smaller models that can be incorporate in mobile devices
 
 **Quantitative data**
+- coming soon...
