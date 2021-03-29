@@ -1,0 +1,2 @@
+the *.log files contain the training / dev / test logs for all models that lead to the final model
+the *.patch files contain the hyperparameter information for each training run
