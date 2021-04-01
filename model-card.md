@@ -37,15 +37,17 @@
   - wav format
   
 **Metrics**
-- word error rate
+- word error rate on the Common Voice Kinyarwanda test set
+
+|Test Corpus|WER|CER|
+|-----------|---|---|
+|Common Voice|60.1\%|23.5\%|
 
 **Training data**
 - [common voice crowdsource website](https://commonvoice.mozilla.org/en/datasets)
-- 105,765 audio clips
 
 **Evaluation data**
 - [common voice crowdsource website](https://commonvoice.mozilla.org/en/datasets)
-- 14,252 audio clips
 
 **Caveats and recommendation**
 - More accents other than main kinyarwanda accents must be included
