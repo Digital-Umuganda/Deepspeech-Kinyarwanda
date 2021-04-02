@@ -1,2 +1,5 @@
 best_dev-1388310.pbmm filter=lfs diff=lfs merge=lfs -text
 jan-8-2021-best-kinya-deepspeech/best_dev-2011795.data-00000-of-00001 filter=lfs diff=lfs merge=lfs -text
+*.pbmm filter=lfs diff=lfs merge=lfs -text
+*.pb filter=lfs diff=lfs merge=lfs -text
+*.tflite filter=lfs diff=lfs merge=lfs -text
